@@ -11,43 +11,55 @@
         <title>Geometr&iacute;a</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/index.html">Inicio</span></a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Geometría</span></a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/index.html">Inicio</span></a>
+                        </li>
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Aritmética</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="../../aritmetica/suma/suma.html">Suma</a></li>
+                                <li><a class="dropdown-item" href="../../aritmetica/resta/resta.html">Resta</a></li>
+                                <li><a class="dropdown-item" href="../../aritmetica/multiplicacion/multiplicacion.html">Multiplicación</a></li>
+                                <li><a class="dropdown-item" href="../../aritmetica/division/division.html">División</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Geometría</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Bidimensional</a></li>
+                                <li><a class="dropdown-item" href="/geometria/tridimensional/tridimensional.html">Tridimensional</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
         <div class="container">
             <h1 id="titulo">F&iacuteguras geom&eacutetricas bidimensionales</h1>
-            <p>
+            <p class="resumen">
                 Una figura geométrica puede caracterizarse por la unión 
                 de elementos adimensionales (elementos que no tienen dimensión) 
                 como el punto y elementos unidimensionales (elementos lineales)
                 como lo son la recta y la curva.
             </p>
-            <p>
+            <p class="resumen">
                 El espacio bidimensional es un módulo geométrico de la proyección 
                 plana y física del universo donde vivimos. Tiene dos dimensiones,
                 es decir que cuenta con ancho y largo, pero no con profundidad 
                 (que solo se utiliza en la tridimensionalidad).
             </p>
-            <p>
+            <p class="resumen">
                 Los planos son bidimensionales, y solo pueden contener cuerpos 
                 unidimensionales o bidimensionales.
             </p>
-            <table class="table table-bordered" style="text-align: center;">
+            <table class="table table-bordered text-center">
                 <caption>F&iacuteguras geom&eacutetricas planas o bidimensionales</caption>
                 <thead>    
-                    <tr>
+                    <tr class="fw-bold">
                         <td rowspan="2">N&uacute;mero</td>
                         <td rowspan="2">Figura</td>
                         <td colspan="2">F&oacute;rmulas</td>
@@ -76,12 +88,18 @@
                     <td>A=1.72048L<sup>2</sup></td>
                 </tr>
             </table>
-            <p>En el siguiente enlace podrá encontrar más información
-                sobre las figuras planas o bidimensionales:
-                <a href="https://www.youtube.com/watch?v=H13BAQJ2XxY">Área y perimetro de figuras bidimensionales</a>
-            </p>
+            <div class="text-center">
+                <p class="resumen">En el siguiente video podrá encontrar más información
+                    sobre las figuras planas o bidimensionales: 
+                </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/maoJKW_grSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+            </div>        
         </div>
         <a href="#titulo"><img src="/imagenes/icono flecha.png" alt="Flecha" id="botonArriba"></a>
+        <!-- Scripts para la escritura de formulas matemáticas -->
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <script src="/js/app.js"></script>
     </body>
 </html>
