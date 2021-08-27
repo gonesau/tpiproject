@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Tridimensional</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/index.html">Inicio</span></a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Aritmética</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/aritmetica/suma/suma.html">Suma</a></li>
+                            <li><a class="dropdown-item" href="/aritmetica/resta/resta.html">Resta</a></li>
+                            <li><a class="dropdown-item" href="/aritmetica/multiplicacion/multiplicacion.html">Multiplicación</a></li>
+                            <li><a class="dropdown-item" href="/aritmetica/division/division.html">División</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Geometría</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/geometria/bidimensional/bidimensional.html">Bidimensional</a></li>
+                            <li><a class="dropdown-item" href="#">Tridimensional</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h1 id="titulo">Figuras geométricas tridimensionales</h1>
+        
+        <p class="resumen">
+            Una figura geométrica es la representación visual y funcional de un conjunto no vacío y cerrado de puntos en un plano geométrico. Es decir, figuras que delimitan superficies planas a través de un conjunto de líneas (lados) que unen sus puntos de un modo específico. Dependiendo del orden y número de dichas líneas hablaremos de una figura o de otra.
+            <br>
+            <br>
+            En física, geometría y análisis matemático, un objeto o ente es tridimensional si tiene tres dimensiones. Es decir, cada uno de sus puntos puede ser localizado especificando tres números dentro de un cierto rango. Ejemplo: anchura, altura y profundidad.
+            <br>
+            <br>
+            Las tridimensionales son figuras con volumen y las más conocidas son el cubo, pirámide y esfera y cilindro. Casi todos los elementos, tanto de la naturaleza como los creados por el ser humano, son conjuntos de figuras tridimensionales unidas entre sí. Basta con mirar alrededor para descubrir que el mundo se compone de diferentes figuras geométricas en todas sus dimensiones y, el conocimiento sobre estas es utilizado en diferentes campos que van desde la arquitectura y matemática a la astronomía y física entre muchas más.
+            <br>
+            <br>
+            Ejemplos de figuras geométricas tridimensionales:
+        </p>
+        
+        <table class="table table-bordered text-center" >
+            <caption>Figuras geométricas tridimensionales</caption>
+            <thead>
+                <tr class="fw-bold">
+                    <td rowspan="2">Número</td>
+                    <td rowspan="2">Figura</td>
+                    <td colspan="2">Fórmulas</td>
+                </tr>
+                <tr>
+                    <td>Área</td>
+                    <td>volumen</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><img src="../../imagenes/cubo.png" alt="cubo" width="100px" height="100px"></td>
+                    <td class="align-middle">\(A = 6a^2 \)</sup></td>
+                    <td class="align-middle">\(V = a^3\)</sup></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><img src="../../imagenes/piramide.png" alt="piramide" width="100px" height="100px"></td>
+                    <td class="align-middle">\( A = L*(L+\sqrt{4h^2 + L^2})\)</td>
+                    <td class="align-middle">\[V = {L^2 * h \over 3} \]</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><img src="../../imagenes/esfera.png" alt="esfera" width="100px" height="100px"></td>
+                    <td class="align-middle">\(A = 4 \pi R^2 \)</td>
+                    <td class="align-middle">\[V = {4 \pi R^2 \over 3}\]</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="text-center">
+            <p>Aprende más de las figuras tridimensionales con los siguientes videos:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/q6GwFwyBXJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MONxa3twdTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <a href="#titulo"><img src="/imagenes/icono flecha.png" alt="Flecha" id="botonArriba"></a>
+    <!-- Scripts para la escritura de formulas matemáticas -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>
