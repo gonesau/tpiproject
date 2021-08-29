@@ -1,11 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="icon" type="image/png" href="imagenes/icon.png" />
+    <title>Aritmetica y Geometría</title>
+
 </head>
+
 <body>
-    La paz del seño wapos
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio</span></a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Aritmética</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="aritmetica/suma/suma.html">Suma</a></li>
+                            <li><a class="dropdown-item" href="aritmetica/resta/resta.html">Resta</a></li>
+                            <li><a class="dropdown-item" href="aritmetica/multiplicacion/multiplicacion.html">Multiplicación</a>
+                            </li>
+                            <li><a class="dropdown-item" href="aritmetica/division/division.html">División</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Geometría</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item"
+                                    href="geometria/bidimensional/bidimensional.html">Bidimensional</a></li>
+                            <li><a class="dropdown-item"
+                                    href="geometria/tridimensional/tridimensional.html">Tridimensional</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h1 id="titulo">Aritmetica y Geometría</h1>
+
+        <p class="resumen">
+            <!--<h2><strong></strong>¡Bienvenido internauta!</strong></h2>-->
+            Te damos la bienvenida a nuestro sitio web, 
+            donde podrás encontrar información acerca de matemáticas. El principal objetivo de esta página será cubrir dos temas específicos que son 
+            aritmética (cuatro operaciones básicas), geometría (perímetro, área y volumen de las principales figuras).
+            Te presentaremos informacion sencilla de comprender y de lo más valiosa, la cual podrás encontrar 
+            perfectamente estructurada en distintas secciones de la web, así que se te invita a que navegues por ella y 
+            que disfrutes de los contenidos que se ponen a tu disposición.
+            <br/>
+        </p>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <p class="resumen">
+                    <h4>Aritmética</h4>
+                    La <strong>aritmética</strong> es una rama de las matemáticas centrada en el estudio de los números. 
+                    Cabe destacar que los números son muy utilizados en tareas cotidianas y por medio de signos permiten expresar 
+                    una cantidad.
+                    <br/>
+                    <br/>
+                    La aritmética se fue desarrollando con el tiempo para ampliar su campo de estudio con otras operaciones como la potenciación o la raíz cuadrada. 
+                    Asimismo, pasó a operar no solo con números enteros, sino también con aquellas que tienen decimales, 
+                    números negativos y, en general, números naturales.
+
+                    Cabe resaltar que, en ocasiones, el concepto «aritmética» es utilizado como un adjetivo. 
+                    En este sentido, dando lugar a conceptos como «media aritmética«. El cual, es el resultado de sumar una serie de datos y 
+                    dividir entre el número de datos.
+                    
+                    Asimismo, una progresión aritmética es una serie de datos en la que la diferencia entre el primero y 
+                    el segundo es la misma que existe entre el segundo y el tercero, y así sucesivamente, entre todos los datos contiguos.
+              
+
+                </p>
+            </div>
+            <div class="col-sm-6">
+                <p class="resumen">
+                    <h4>Geometría</h4>
+                    Etimológicamente hablando, la palabra <strong>Geometría</strong> procede del griego y
+                    significa “Medida de la Tierra”. La Geometría es la parte de las Matemáticas que
+                    estudia las idealizaciones del espacio en términos de las propiedades y medidas de las
+                    figuras geométricas.<br/><br/>
+                    La Geometría no estudia el espacio real en sí mismo, sino objetos ideales
+                    (también conocidos como objetos matemáticos o geométricos), sus propiedades,
+                    relaciones y teorías, construidos por abstracción de cualidades del espacio real o de
+                    otros objetos ideales creados previamente (en el espacio real no existen círculos,
+                    pentágonos, rectas, puntos, esferas, sino objetos que tienen forma deo
+                    modelizados por; la realidad física siempre es menos perfecta que la realidad
+                    geométrica pensada o ideal).
+
+
+                </p>
+            </div>
+
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-6">
+
+                <ul class="list-group">
+                    <li class="list-group-item">1) Aritmetica</li>
+                    <ul>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="aritmetica/suma/suma.html">1.1 Suma</span></a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="aritmetica/resta/resta.html">1.2 Resta</span></a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="aritmetica/multiplicacion/multiplicacion.html">1.3
+                                Multiplicación</span></a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="aritmetica/division/division.html">1.4 División</span></a>
+                        </li>
+                    </ul>
+                    <li class="list-group-item">2) Geometría</li>
+                    <ul>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="geometria/bidimensional/bidimensional.html">2.1
+                                Bidimensional</span></a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="geometria/tridimensional/tridimensional.html">2.2 Tridimencional</span></a>
+                        </li>
+                    </ul>
+                </ul> 
+           
+            </div>
+            <div class="col-6">
+                <img src="imagenes/mat.png" alt="Maestro"/>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <br/>
+            <p><strong>Te compartimos los siguientes vídeos para que puedas aprender más sobre la aritmética y la geometría:</strong></p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/oEFwDn3ieSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bw7L5-Ti6nU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+        </div>
+
+
+    </div>
+    <a href="#titulo"><img src="imagenes/iconoFlecha.png" alt="Flecha" id="botonArriba"></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="/js/app.js"></script>
+
 </body>
+<footer>
+
+</footer>
+
 </html>
